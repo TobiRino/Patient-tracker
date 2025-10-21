@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Patient-tracker/static/css/main.a7e7496b.css",
+    "main.js": "/Patient-tracker/static/js/main.efa49fb7.js",
+    "static/js/453.62e31872.chunk.js": "/Patient-tracker/static/js/453.62e31872.chunk.js",
+    "static/media/Jessica Taylor.png": "/Patient-tracker/static/media/Jessica Taylor.61fc14c826b68e0bfe1d.png",
+    "static/media/dylan.png": "/Patient-tracker/static/media/dylan.990c3edcbe1486b49235.png",
+    "static/media/Emily.png": "/Patient-tracker/static/media/Emily.dec83c2d30f7804780d5.png",
+    "static/media/nathan.png": "/Patient-tracker/static/media/nathan.271a55f2dcf4b25c17de.png",
+    "static/media/olivia.png": "/Patient-tracker/static/media/olivia.e8ed834ec4137b7f949d.png",
+    "static/media/ryan.png": "/Patient-tracker/static/media/ryan.f3bc49851f7231c860f1.png",
+    "static/media/mike.png": "/Patient-tracker/static/media/mike.cee241be8a612516a7e1.png",
+    "static/media/ashley.png": "/Patient-tracker/static/media/ashley.e0ded7eea0ea412b7183.png",
+    "static/media/samantha.png": "/Patient-tracker/static/media/samantha.c110790e3797b4672648.png",
+    "static/media/tyler.png": "/Patient-tracker/static/media/tyler.75bcd1d7d9c413a4eb90.png",
+    "static/media/Jessica.png": "/Patient-tracker/static/media/Jessica.2fe0a8b5946efa3a1135.png",
+    "static/media/Kelvin (2).png": "/Patient-tracker/static/media/Kelvin (2).63275d301bc4fb6ed8dc.png",
+    "static/media/brandon.png": "/Patient-tracker/static/media/brandon.1d73993ac89820e52372.png",
+    "static/media/TestLogo.svg": "/Patient-tracker/static/media/TestLogo.88af223195d0f4c09a8c609cf21c6d07.svg",
+    "static/media/calendar_today_FILL0_wght300_GRAD0_opsz24.svg": "/Patient-tracker/static/media/calendar_today_FILL0_wght300_GRAD0_opsz24.a507bf19d18aaf3bc29cf5e18b348a13.svg",
+    "index.html": "/Patient-tracker/index.html",
+    "main.a7e7496b.css.map": "/Patient-tracker/static/css/main.a7e7496b.css.map",
+    "main.efa49fb7.js.map": "/Patient-tracker/static/js/main.efa49fb7.js.map",
+    "453.62e31872.chunk.js.map": "/Patient-tracker/static/js/453.62e31872.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e7496b.css",
+    "static/js/main.efa49fb7.js"
+  ]
+}
