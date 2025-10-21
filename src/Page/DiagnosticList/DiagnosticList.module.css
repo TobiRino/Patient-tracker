@@ -1,0 +1,52 @@
+.card {
+  background: white;
+  padding: 0px 16px 16px 16px;
+  margin-top: 16px;
+  border-radius: 12px;
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.05); */
+}
+
+.title {
+  font-weight: 800;
+  margin-bottom: 12px;
+    font-family: 'Manrope', sans-serif;
+    color: #072635;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border-top: 1px solid #eee;
+  text-align: left;
+   font-family: 'Manrope', sans-serif;
+}
+
+.status {
+  color: #072635;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+}
+
+
+.theaddglst {
+    background-color: #F6F7F8;
+    border-radius: 50px !important;
+    padding: 4px 12px;
+}
+
+.theaddglst tr th{
+   font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.tableWrapper {
+  max-height: 200px;
+  overflow-y: auto;
+}

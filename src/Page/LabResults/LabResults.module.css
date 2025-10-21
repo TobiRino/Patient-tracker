@@ -1,0 +1,43 @@
+.card {
+    background: white;
+   padding: 0px 16px 16px 16px;
+    border-radius: 12px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
+}
+
+.title {
+    font-weight: 800;
+    margin-bottom: 12px;
+    font-family: 'Manrope', sans-serif;
+    color: #072635;
+    
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+     max-height: 222px;
+  overflow-y: auto;
+  padding-right: 4px; 
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+    color: #072635;
+
+}
+
+.download {
+    background: none;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+    font-size: 16px;
+}

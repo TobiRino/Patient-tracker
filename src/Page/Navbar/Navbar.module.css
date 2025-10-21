@@ -1,0 +1,92 @@
+.navbar {
+  height: 70px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+ width: 210.58px;
+ height: 48px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.links button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #444;
+   align-items: center;
+}
+
+
+.drinfo {
+    background-color:  #E0E0E0;
+    height: 40px !important;
+    width: 2px !important;
+}
+.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbutton {
+    display: flex;
+    align-items: center;   /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    gap: 8px; /* optional: space between icon and text */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #01F0D0 !important;
+    border-radius: 41px;
+    width: 121.73px;
+    height: 41px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.drname {
+  font-weight: 800;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #072635;
+  margin-bottom: -15px;
+}
+
+.home {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+}
+
+.drnamepostn {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 500;
+    font-family: 'Manrope';
+}

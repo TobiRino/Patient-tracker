@@ -1,0 +1,70 @@
+
+.sidebar {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.patient {
+  padding: 20px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.patient:hover {
+  background-color: #D8FCF7;
+}
+
+.age {
+  color: gray;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+ 
+}
+
+.patientList  {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 14px;
+  font-family: 'Manrope', sans-serif;
+  color: #072635;
+}
+
+.subheading {
+    font-size: 14px;
+    color: #707070;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.imgleft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

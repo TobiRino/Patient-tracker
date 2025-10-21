@@ -1,0 +1,80 @@
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.05); */
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: 800;
+  margin-top: 8px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.meta {
+  font-size: 14px;
+  color: gray;
+}
+
+.info {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+.button {
+  width: 80%;
+  background: #01F0D0;
+  color: #072635;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #D8FCF7;
+}
+
+.dob {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 8px; */
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  margin-right: 8px;
+}
+
+.dobptg {
+    font-size: 14px;
+    color: #072635;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    /* margin-left: 10px; */
+    margin-bottom: -5px;
+}
+
+.dobptgsub {
+    font-size: 14px;
+    color: #072635;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    /* margin-left: 10px; */
+    margin-top: -4px;
+}

@@ -1,0 +1,157 @@
+/* Example: MyComponent.module.css */
+.scrollContainer {
+  width: 8px;
+  height: 100px;
+  overflow-y: scroll;
+
+  /* Firefox */
+  /* scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1; */
+}
+
+/* Chrome, Edge, Safari */
+.scrollContainer::-webkit-scrollbar {
+  width: 1px; /* 👈 scrollbar width */
+  scrollbar-width: thin !important;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /* space around thumb */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F6F7F8;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 280px;
+  /* border-right: 1px solid #e5e5e5; */
+  overflow-y: auto;
+}
+
+.main {
+  flex: 1;
+  background-color: #f9fafb;
+  overflow-y: auto;
+  padding: 0 16px 16px 16px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.graphSection {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.graphCarduid {
+ background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.diagnosisp {
+    font-size: 24px;
+    color: #072635;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-family: 'Manrope', sans-serif;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.cardrespire {
+  background: #E0F3FA;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+.cardtemp {
+  background: #FFE6E9;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+.cardheart {
+  background: #FFE6E9;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.respierp {
+    font-size: 16px;
+    color: #072635;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+
+.respierpyt {
+    font-size: 14px;
+    color: #072635;
+    font-weight: 300;
+    font-family: 'Manrope', sans-serif;
+}
+
+.respierpttu {
+    font-size: 30px;
+    color: #072635;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.alcardrespire {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: left;
+  /* gap: 8px; */
+}
