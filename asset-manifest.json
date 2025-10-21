@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Patient-tracker/static/css/main.a7e7496b.css",
-    "main.js": "/Patient-tracker/static/js/main.76297c8f.js",
+    "main.js": "/Patient-tracker/static/js/main.06c5f087.js",
     "static/js/453.62e31872.chunk.js": "/Patient-tracker/static/js/453.62e31872.chunk.js",
     "static/media/Jessica Taylor.png": "/Patient-tracker/static/media/Jessica Taylor.61fc14c826b68e0bfe1d.png",
     "static/media/dylan.png": "/Patient-tracker/static/media/dylan.990c3edcbe1486b49235.png",
@@ -20,11 +20,11 @@
     "static/media/calendar_today_FILL0_wght300_GRAD0_opsz24.svg": "/Patient-tracker/static/media/calendar_today_FILL0_wght300_GRAD0_opsz24.a507bf19d18aaf3bc29cf5e18b348a13.svg",
     "index.html": "/Patient-tracker/index.html",
     "main.a7e7496b.css.map": "/Patient-tracker/static/css/main.a7e7496b.css.map",
-    "main.76297c8f.js.map": "/Patient-tracker/static/js/main.76297c8f.js.map",
+    "main.06c5f087.js.map": "/Patient-tracker/static/js/main.06c5f087.js.map",
     "453.62e31872.chunk.js.map": "/Patient-tracker/static/js/453.62e31872.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7e7496b.css",
-    "static/js/main.76297c8f.js"
+    "static/js/main.06c5f087.js"
   ]
 }
